@@ -2,6 +2,13 @@
 <cdtprojectproperties>
 <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
 <language name="C Source File">
+<includepath>${IDF_PATH}/components/esp32/include</includepath>
+<includepath>${IDF_PATH}/components/freertos/include</includepath>
+<includepath>${IDF_PATH}/components/nvs_flash/include</includepath>
+<includepath>${IDF_PATH}/components/driver/include</includepath>
+<includepath>${IDF_PATH}/components/lwip/include/lwip</includepath>
+<includepath>${IDF_PATH}/components/log/include</includepath>
+<includepath>${IDF_PATH}/components/mbedtls/include</includepath>
 
 </language>
 <language name="Object File">
