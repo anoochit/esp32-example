@@ -1,0 +1,111 @@
+11:14:46 **** Build of configuration Default for project 2010_HelloWorld ****
+make flash 
+including /home/esp32/esp/esp-idf/components/bootloader/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/esptool_py/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/mbedtls/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/nghttp/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/partition_table/Makefile.projbuild...
+PROJECT_PATH= \
+	BUILD_DIR_BASE=/home/esp32/esp/workspace/2010_HelloWorld/build/bootloader \
+	make -C /home/esp32/esp/esp-idf/components/bootloader/src MAKEFLAGS= V=1 TARGET_BIN_LAYOUT="" /home/esp32/esp/workspace/2010_HelloWorld/build/bootloader/bootloader.bin
+including /home/esp32/esp/esp-idf/components/esptool_py/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/bootloader/Makefile.projbuild...
+make[1]: Entering directory `/home/esp32/esp/esp-idf/components/bootloader/src'
+make[2]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/bootloader/log'
+make[2]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/bootloader/log'
+Target 'log-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/bootloader/log/liblog.a'
+make[2]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/bootloader/main'
+make[2]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/bootloader/main'
+Target 'main-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/bootloader/main/libmain.a'
+python /home/esp32/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode "dio" --flash_freq "40m" -o /home/esp32/esp/workspace/2010_HelloWorld/build/bootloader/bootloader.bin /home/esp32/esp/workspace/2010_HelloWorld/build/bootloader/bootloader.elf
+esptool.py v2.0-dev
+make[1]: Leaving directory `/home/esp32/esp/esp-idf/components/bootloader/src'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/bt'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/bt'
+Target 'bt-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/bt/libbt.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/driver'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/driver'
+Target 'driver-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/driver/libdriver.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/esp32'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/esp32'
+Target 'esp32-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/esp32/libesp32.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/expat'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/expat'
+Target 'expat-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/expat/libexpat.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/freertos'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/freertos'
+Target 'freertos-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/freertos/libfreertos.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/json'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/json'
+Target 'json-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/json/libjson.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/log'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/log'
+Target 'log-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/log/liblog.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/lwip'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/lwip'
+Target 'lwip-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/lwip/liblwip.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/mbedtls'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/mbedtls'
+Target 'mbedtls-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/mbedtls/libmbedtls.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/nghttp'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/nghttp'
+Target 'nghttp-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/nghttp/libnghttp.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/nvs_flash'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/nvs_flash'
+Target 'nvs_flash-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/nvs_flash/libnvs_flash.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/spi_flash'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/spi_flash'
+Target 'spi_flash-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/spi_flash/libspi_flash.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/tcpip_adapter'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/tcpip_adapter'
+Target 'tcpip_adapter-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/tcpip_adapter/libtcpip_adapter.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2010_HelloWorld/build/main'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2010_HelloWorld/build/main'
+Target 'main-build' responsible for '/home/esp32/esp/workspace/2010_HelloWorld/build/main/libmain.a'
+python /home/esp32/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode "dio" --flash_freq "40m" -o /home/esp32/esp/workspace/2010_HelloWorld/build/blink.bin /home/esp32/esp/workspace/2010_HelloWorld/build/blink.elf
+esptool.py v2.0-dev
+Flashing project app to 0x10000...
+python /home/esp32/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port "/dev/ttyUSB0" --baud 921600 write_flash -z --flash_mode "dio" --flash_freq "40m" 0x1000 /home/esp32/esp/workspace/2010_HelloWorld/build/bootloader/bootloader.bin 0x10000 /home/esp32/esp/workspace/2010_HelloWorld/build/blink.bin 0x4000 /home/esp32/esp/workspace/2010_HelloWorld/build/partitions_singleapp.bin
+esptool.py v2.0-dev
+Connecting...
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 921600
+Changed.
+Attaching SPI flash...
+Configuring flash size...
+Erasing flash...
+Unc size 4224 comp size 2635 comp blocks 3
+
+Writing at 0x00001000... (100 %) 
+Wrote 2635 bytes at 0x00001000 in 0.0 seconds (661.6 kbit/s)...
+Hash of data verified.
+Erasing flash...
+Unc size 244864 comp size 93076 comp blocks 91
+
+Writing at 0x00010000... (8 %) 
+Writing at 0x00012000... (16 %) 
+Writing at 0x00014000... (25 %) 
+Writing at 0x00016000... (33 %) 
+Writing at 0x00018000... (41 %) 
+Writing at 0x0001a000... (50 %) 
+Writing at 0x0001c000... (58 %) 
+Writing at 0x0001e000... (66 %) 
+Writing at 0x00020000... (75 %) 
+Writing at 0x00022000... (83 %) 
+Writing at 0x00024000... (91 %) 
+Writing at 0x00026000... (100 %) 
+Wrote 93076 bytes at 0x00010000 in 2.2 seconds (343.7 kbit/s)...
+Hash of data verified.
+Erasing flash...
+Unc size 96 comp size 57 comp blocks 1
+
+Writing at 0x00004000... (100 %) 
+Wrote 57 bytes at 0x00004000 in 0.0 seconds (102.4 kbit/s)...
+Hash of data verified.
+
+Leaving...
+
+11:14:53 Build Finished (took 6s.720ms)
+

@@ -1,0 +1,107 @@
+01:05:08 **** Build of configuration Default for project 2050_GPIO_InputOutput ****
+make flash 
+including /home/esp32/esp/esp-idf/components/bootloader/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/esptool_py/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/mbedtls/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/nghttp/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/partition_table/Makefile.projbuild...
+PROJECT_PATH= \
+	BUILD_DIR_BASE=/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bootloader \
+	make -C /home/esp32/esp/esp-idf/components/bootloader/src MAKEFLAGS= V=1 TARGET_BIN_LAYOUT="" /home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bootloader/bootloader.bin
+including /home/esp32/esp/esp-idf/components/esptool_py/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/bootloader/Makefile.projbuild...
+make[1]: Entering directory `/home/esp32/esp/esp-idf/components/bootloader/src'
+make[2]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bootloader/log'
+make[2]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bootloader/log'
+Target 'log-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bootloader/log/liblog.a'
+make[2]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bootloader/main'
+make[2]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bootloader/main'
+Target 'main-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bootloader/main/libmain.a'
+make[1]: Leaving directory `/home/esp32/esp/esp-idf/components/bootloader/src'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bt'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bt'
+Target 'bt-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bt/libbt.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/driver'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/driver'
+Target 'driver-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/driver/libdriver.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/esp32'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/esp32'
+Target 'esp32-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/esp32/libesp32.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/expat'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/expat'
+Target 'expat-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/expat/libexpat.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/freertos'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/freertos'
+Target 'freertos-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/freertos/libfreertos.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/json'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/json'
+Target 'json-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/json/libjson.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/log'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/log'
+Target 'log-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/log/liblog.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/lwip'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/lwip'
+Target 'lwip-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/lwip/liblwip.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/mbedtls'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/mbedtls'
+Target 'mbedtls-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/mbedtls/libmbedtls.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/nghttp'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/nghttp'
+Target 'nghttp-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/nghttp/libnghttp.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/nvs_flash'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/nvs_flash'
+Target 'nvs_flash-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/nvs_flash/libnvs_flash.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/spi_flash'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/spi_flash'
+Target 'spi_flash-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/spi_flash/libspi_flash.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/tcpip_adapter'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/tcpip_adapter'
+Target 'tcpip_adapter-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/tcpip_adapter/libtcpip_adapter.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/main'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/main'
+Target 'main-build' responsible for '/home/esp32/esp/workspace/2050_GPIO_InputOutput/build/main/libmain.a'
+Flashing project app to 0x10000...
+python /home/esp32/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port "/dev/ttyUSB0" --baud 921600 write_flash -z --flash_mode "dio" --flash_freq "40m" 0x1000 /home/esp32/esp/workspace/2050_GPIO_InputOutput/build/bootloader/bootloader.bin 0x10000 /home/esp32/esp/workspace/2050_GPIO_InputOutput/build/blink.bin 0x4000 /home/esp32/esp/workspace/2050_GPIO_InputOutput/build/partitions_singleapp.bin
+esptool.py v2.0-dev
+Connecting...
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 921600
+Changed.
+Attaching SPI flash...
+Configuring flash size...
+Erasing flash...
+Unc size 4224 comp size 2635 comp blocks 3
+
+Writing at 0x00001000... (100 %) 
+Wrote 2635 bytes at 0x00001000 in 0.0 seconds (642.1 kbit/s)...
+Hash of data verified.
+Erasing flash...
+Unc size 245600 comp size 93505 comp blocks 92
+
+Writing at 0x00010000... (8 %) 
+Writing at 0x00012000... (16 %) 
+Writing at 0x00014000... (25 %) 
+Writing at 0x00016000... (33 %) 
+Writing at 0x00018000... (41 %) 
+Writing at 0x0001a000... (50 %) 
+Writing at 0x0001c000... (58 %) 
+Writing at 0x0001e000... (66 %) 
+Writing at 0x00020000... (75 %) 
+Writing at 0x00022000... (83 %) 
+Writing at 0x00024000... (91 %) 
+Writing at 0x00026000... (100 %) 
+Wrote 93505 bytes at 0x00010000 in 2.2 seconds (342.8 kbit/s)...
+Hash of data verified.
+Erasing flash...
+Unc size 96 comp size 57 comp blocks 1
+
+Writing at 0x00004000... (100 %) 
+Wrote 57 bytes at 0x00004000 in 0.0 seconds (133.9 kbit/s)...
+Hash of data verified.
+
+Leaving...
+
+01:05:14 Build Finished (took 6s.205ms)
+

@@ -1,0 +1,67 @@
+14:54:17 **** Incremental Build of configuration Default for project 0000_Template ****
+make all 
+including /home/esp32/esp/esp-idf/components/bootloader/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/esptool_py/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/mbedtls/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/nghttp/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/partition_table/Makefile.projbuild...
+PROJECT_PATH= \
+	BUILD_DIR_BASE=/home/esp32/esp/workspace/0000_Template/build/bootloader \
+	make -C /home/esp32/esp/esp-idf/components/bootloader/src MAKEFLAGS= V=1 TARGET_BIN_LAYOUT="" /home/esp32/esp/workspace/0000_Template/build/bootloader/bootloader.bin
+including /home/esp32/esp/esp-idf/components/esptool_py/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/bootloader/Makefile.projbuild...
+make[1]: Entering directory `/home/esp32/esp/esp-idf/components/bootloader/src'
+make[2]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/bootloader/log'
+make[2]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/bootloader/log'
+Target 'log-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/bootloader/log/liblog.a'
+make[2]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/bootloader/main'
+make[2]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/bootloader/main'
+Target 'main-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/bootloader/main/libmain.a'
+make[1]: Leaving directory `/home/esp32/esp/esp-idf/components/bootloader/src'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/bt'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/bt'
+Target 'bt-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/bt/libbt.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/driver'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/driver'
+Target 'driver-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/driver/libdriver.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/esp32'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/esp32'
+Target 'esp32-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/esp32/libesp32.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/expat'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/expat'
+Target 'expat-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/expat/libexpat.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/freertos'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/freertos'
+Target 'freertos-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/freertos/libfreertos.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/json'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/json'
+Target 'json-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/json/libjson.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/log'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/log'
+Target 'log-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/log/liblog.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/lwip'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/lwip'
+Target 'lwip-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/lwip/liblwip.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/mbedtls'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/mbedtls'
+Target 'mbedtls-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/mbedtls/libmbedtls.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/nghttp'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/nghttp'
+Target 'nghttp-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/nghttp/libnghttp.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/nvs_flash'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/nvs_flash'
+Target 'nvs_flash-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/nvs_flash/libnvs_flash.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/spi_flash'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/spi_flash'
+Target 'spi_flash-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/spi_flash/libspi_flash.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/tcpip_adapter'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/tcpip_adapter'
+Target 'tcpip_adapter-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/tcpip_adapter/libtcpip_adapter.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/0000_Template/build/main'
+make[1]: Leaving directory `/home/esp32/esp/workspace/0000_Template/build/main'
+Target 'main-build' responsible for '/home/esp32/esp/workspace/0000_Template/build/main/libmain.a'
+To flash all build output, run 'make flash' or:
+python /home/esp32/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 921600 write_flash -z --flash_mode dio --flash_freq 40m 0x1000 /home/esp32/esp/workspace/0000_Template/build/bootloader/bootloader.bin 0x10000 /home/esp32/esp/workspace/0000_Template/build/app-template.bin 0x4000 /home/esp32/esp/workspace/0000_Template/build/partitions_singleapp.bin
+
+14:54:18 Build Finished (took 1s.312ms)
+

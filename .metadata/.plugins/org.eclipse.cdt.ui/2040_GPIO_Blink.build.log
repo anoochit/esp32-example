@@ -1,0 +1,76 @@
+00:50:04 **** Incremental Build of configuration Default for project 2040_GPIO_Blink ****
+make all 
+including /home/esp32/esp/esp-idf/components/bootloader/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/esptool_py/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/mbedtls/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/nghttp/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/partition_table/Makefile.projbuild...
+PROJECT_PATH= \
+	BUILD_DIR_BASE=/home/esp32/esp/workspace/2040_GPIO_Blink/build/bootloader \
+	make -C /home/esp32/esp/esp-idf/components/bootloader/src MAKEFLAGS= V=1 TARGET_BIN_LAYOUT="" /home/esp32/esp/workspace/2040_GPIO_Blink/build/bootloader/bootloader.bin
+including /home/esp32/esp/esp-idf/components/esptool_py/Makefile.projbuild...
+including /home/esp32/esp/esp-idf/components/bootloader/Makefile.projbuild...
+make[1]: Entering directory `/home/esp32/esp/esp-idf/components/bootloader/src'
+make[2]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/bootloader/log'
+make[2]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/bootloader/log'
+Target 'log-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/bootloader/log/liblog.a'
+make[2]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/bootloader/main'
+make[2]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/bootloader/main'
+Target 'main-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/bootloader/main/libmain.a'
+make[1]: Leaving directory `/home/esp32/esp/esp-idf/components/bootloader/src'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/bt'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/bt'
+Target 'bt-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/bt/libbt.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/driver'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/driver'
+Target 'driver-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/driver/libdriver.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/esp32'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/esp32'
+Target 'esp32-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/esp32/libesp32.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/expat'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/expat'
+Target 'expat-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/expat/libexpat.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/freertos'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/freertos'
+Target 'freertos-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/freertos/libfreertos.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/json'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/json'
+Target 'json-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/json/libjson.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/log'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/log'
+Target 'log-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/log/liblog.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/lwip'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/lwip'
+Target 'lwip-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/lwip/liblwip.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/mbedtls'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/mbedtls'
+Target 'mbedtls-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/mbedtls/libmbedtls.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/nghttp'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/nghttp'
+Target 'nghttp-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/nghttp/libnghttp.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/nvs_flash'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/nvs_flash'
+Target 'nvs_flash-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/nvs_flash/libnvs_flash.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/spi_flash'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/spi_flash'
+Target 'spi_flash-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/spi_flash/libspi_flash.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/tcpip_adapter'
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/tcpip_adapter'
+Target 'tcpip_adapter-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/tcpip_adapter/libtcpip_adapter.a'
+make[1]: Entering directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/main'
+xtensa-esp32-elf-gcc -DESP_PLATFORM -Og -g3 -Wpointer-arith -Werror -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wall -ffunction-sections -fdata-sections -mlongcalls -nostdlib -MMD -MP -std=gnu99 -g3 -fstrict-volatile-bitfields -DMBEDTLS_CONFIG_FILE='"mbedtls/esp_config.h"' -DHAVE_CONFIG_H -I /home/esp32/esp/workspace/2040_GPIO_Blink/main/include -I /home/esp32/esp/esp-idf/components/bt/include -I /home/esp32/esp/esp-idf/components/driver/include -I /home/esp32/esp/esp-idf/components/esp32/include -I /home/esp32/esp/esp-idf/components/expat/port/include -I /home/esp32/esp/esp-idf/components/expat/include/expat -I /home/esp32/esp/esp-idf/components/freertos/include -I /home/esp32/esp/esp-idf/components/json/include -I /home/esp32/esp/esp-idf/components/json/port/include -I /home/esp32/esp/esp-idf/components/log/include -I /home/esp32/esp/esp-idf/components/lwip/include/lwip -I /home/esp32/esp/esp-idf/components/lwip/include/lwip/port -I /home/esp32/esp/esp-idf/components/lwip/include/lwip/posix -I /home/esp32/esp/esp-idf/components/mbedtls/port/include -I /home/esp32/esp/esp-idf/components/mbedtls/include -I /home/esp32/esp/esp-idf/components/newlib/include -I /home/esp32/esp/esp-idf/components/nghttp/port/include -I /home/esp32/esp/esp-idf/components/nghttp/include -I /home/esp32/esp/esp-idf/components/nvs_flash/include -I /home/esp32/esp/esp-idf/components/spi_flash/include -I /home/esp32/esp/esp-idf/components/tcpip_adapter/include -I /home/esp32/esp/workspace/2040_GPIO_Blink/build/include/  -I. -c /home/esp32/esp/workspace/2040_GPIO_Blink/main/./main.c -o main.o
+/home/esp32/esp/workspace/2040_GPIO_Blink/main/./main.c:18:20: warning: 'TAG' defined but not used [-Wunused-variable]
+ static const char *TAG = "example";
+                    ^
+rm -f libmain.a
+xtensa-esp32-elf-ar cru libmain.a ./main.o
+make[1]: Leaving directory `/home/esp32/esp/workspace/2040_GPIO_Blink/build/main'
+Target 'main-build' responsible for '/home/esp32/esp/workspace/2040_GPIO_Blink/build/main/libmain.a'
+xtensa-esp32-elf-gcc -nostdlib -L/home/esp32/esp/esp-idf/lib -L/home/esp32/esp/esp-idf/ld -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/bootloader -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/bt -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/driver -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/esp32 -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/esptool_py -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/expat -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/freertos -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/json -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/log -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/lwip -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/mbedtls -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/newlib -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/nghttp -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/nvs_flash -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/partition_table -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/spi_flash -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/tcpip_adapter -L/home/esp32/esp/workspace/2040_GPIO_Blink/build/main -u call_user_start_cpu0 -Wl,--gc-sections -Wl,-static -Wl,--start-group  -lbt -L/home/esp32/esp/esp-idf/components/bt/lib -lbtdm_app    -ldriver   -lesp32 /home/esp32/esp/esp-idf/components/esp32/libhal.a -L/home/esp32/esp/esp-idf/components/esp32/lib -lcrypto -lcore -lnet80211 -lphy -lrtc -lpp -lwpa -lsmartconfig -L /home/esp32/esp/esp-idf/components/esp32/ld -T esp32_out.ld -T esp32.common.ld -T esp32.rom.ld -T esp32.peripherals.ld   -lexpat   -lfreertos -Wl,--undefined=uxTopUsedPriority   -ljson   -llog   -llwip   -lmbedtls   /home/esp32/esp/esp-idf/components/newlib/lib/libc.a /home/esp32/esp/esp-idf/components/newlib/lib/libm.a   -lnghttp   -lnvs_flash   -lspi_flash   -ltcpip_adapter   -lmain  -lgcc -Wl,--end-group -Wl,-EL -o /home/esp32/esp/workspace/2040_GPIO_Blink/build/blink.elf -Wl,-Map=/home/esp32/esp/workspace/2040_GPIO_Blink/build/blink.map
+python /home/esp32/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode "dio" --flash_freq "40m" -o /home/esp32/esp/workspace/2040_GPIO_Blink/build/blink.bin /home/esp32/esp/workspace/2040_GPIO_Blink/build/blink.elf
+esptool.py v2.0-dev
+To flash all build output, run 'make flash' or:
+python /home/esp32/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 921600 write_flash -z --flash_mode dio --flash_freq 40m 0x1000 /home/esp32/esp/workspace/2040_GPIO_Blink/build/bootloader/bootloader.bin 0x10000 /home/esp32/esp/workspace/2040_GPIO_Blink/build/blink.bin 0x4000 /home/esp32/esp/workspace/2040_GPIO_Blink/build/partitions_singleapp.bin
+
+00:50:06 Build Finished (took 2s.406ms)
+
