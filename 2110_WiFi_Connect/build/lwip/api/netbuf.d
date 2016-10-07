@@ -18,7 +18,7 @@ api/netbuf.o: /home/esp32/esp/esp-idf/components/lwip/api/netbuf.c \
  /home/esp32/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/esp32/esp/esp-idf/components/newlib/include/alloca.h \
  /home/esp32/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h \
+ /home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h \
  /home/esp32/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h \
  /home/esp32/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h \
  /home/esp32/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
@@ -113,7 +113,7 @@ api/netbuf.o: /home/esp32/esp/esp-idf/components/lwip/api/netbuf.c \
 
 /home/esp32/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h:
+/home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h:
 
 /home/esp32/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 

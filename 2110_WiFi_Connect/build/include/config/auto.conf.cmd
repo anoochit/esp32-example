@@ -9,7 +9,7 @@ deps_config := \
 	/home/esp32/esp/esp-idf/components/bootloader/Kconfig.projbuild \
 	/home/esp32/esp/esp-idf/components/esptool_py/Kconfig.projbuild \
 	/home/esp32/esp/esp-idf/components/partition_table/Kconfig.projbuild \
-	/home/esp32/esp/workspace/2100_WiFi_Connect/main/Kconfig.projbuild \
+	/home/esp32/esp/workspace/2110_WiFi_Connect/main/Kconfig.projbuild \
 	/home/esp32/esp/esp-idf/Kconfig
 
 include/config/auto.conf: \

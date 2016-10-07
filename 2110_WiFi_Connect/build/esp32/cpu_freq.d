@@ -9,7 +9,7 @@ cpu_freq.o: /home/esp32/esp/esp-idf/components/esp32/./cpu_freq.c \
  /home/esp32/esp/esp-idf/components/esp32/include/esp_types.h \
  /home/esp32/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/esp32/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h
+ /home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h
 
 /home/esp32/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -31,4 +31,4 @@ cpu_freq.o: /home/esp32/esp/esp-idf/components/esp32/./cpu_freq.c \
 
 /home/esp32/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h:
+/home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h:

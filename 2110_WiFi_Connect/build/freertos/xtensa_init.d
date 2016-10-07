@@ -11,7 +11,7 @@ xtensa_init.o: \
  /home/esp32/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  /home/esp32/esp/esp-idf/components/esp32/include/xtensa/simcall.h \
  /home/esp32/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h \
+ /home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h \
  /home/esp32/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/esp32/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/esp32/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
@@ -59,7 +59,7 @@ xtensa_init.o: \
 
 /home/esp32/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h:
+/home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h:
 
 /home/esp32/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

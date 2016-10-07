@@ -16,7 +16,7 @@ src/nvs_page.o: \
  /home/esp32/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
  /home/esp32/esp/esp-idf/components/nvs_flash/src/compressed_enum_table.hpp \
  /home/esp32/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h \
+ /home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h \
  /home/esp32/esp/esp-idf/components/nvs_flash/src/intrusive_list.h \
  /home/esp32/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.hpp \
  /home/esp32/esp/esp-idf/components/esp32/include/rom/crc.h
@@ -53,7 +53,7 @@ src/nvs_page.o: \
 
 /home/esp32/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
-/home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h:
+/home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h:
 
 /home/esp32/esp/esp-idf/components/nvs_flash/src/intrusive_list.h:
 

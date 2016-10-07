@@ -27,7 +27,7 @@ gpio.o: /home/esp32/esp/esp-idf/components/driver/./gpio.c \
  /home/esp32/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/esp32/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/esp32/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h \
+ /home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h \
  /home/esp32/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/esp32/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/esp32/esp/esp-idf/components/newlib/include/stdlib.h \
@@ -113,7 +113,7 @@ gpio.o: /home/esp32/esp/esp-idf/components/driver/./gpio.c \
 
 /home/esp32/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h:
+/home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h:
 
 /home/esp32/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

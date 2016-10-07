@@ -65,7 +65,7 @@ main_dht.o: /home/esp32/esp/workspace/2090_DHT/main/./main_dht.c \
  /home/esp32/esp/esp-idf/components/esp32/include/soc/io_mux_reg.h \
  /home/esp32/esp/esp-idf/components/esp32/include/rom/gpio.h \
  /home/esp32/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/esp32/esp/workspace/2090_DHT/main/./dht.h
+ /home/esp32/esp/workspace/2090_DHT/components/dht/include/dht.h
 
 /home/esp32/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -199,4 +199,4 @@ main_dht.o: /home/esp32/esp/workspace/2090_DHT/main/./main_dht.c \
 
 /home/esp32/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/esp32/esp/workspace/2090_DHT/main/./dht.h:
+/home/esp32/esp/workspace/2090_DHT/components/dht/include/dht.h:

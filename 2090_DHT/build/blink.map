@@ -80,10 +80,6 @@ Archive member included to satisfy reference by file (symbol)
                               /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(cpu_start.o) (spi_flash_init)
 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
                               /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(cpu_start.o) (app_main)
-/home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
-                              /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o) (dht_read_float_data)
-/home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
-                              /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o) (__divsf3)
 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
                               /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-strtod.o) (__adddf3)
 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
@@ -106,6 +102,8 @@ Archive member included to satisfy reference by file (symbol)
                               /home/esp32/esp/esp-idf/components/esp32/lib/librtc.a(rtc.o) (__udivdi3)
 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
                               /home/esp32/esp/esp-idf/components/esp32/lib/librtc.a(rtc.o) (__umoddi3)
+/home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+                              /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o) (dht_read_float_data)
 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
                               /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o) (gpio_set_pull_mode)
 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
@@ -300,6 +298,8 @@ Archive member included to satisfy reference by file (symbol)
                               /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o) (_ZNK3nvs4Item14calculateCrc32Ev)
 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
                               /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o) (tcpip_adapter_get_ip_info)
+/home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
+                              /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o) (__divsf3)
 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
                               /home/esp32/esp/esp-idf/components/esp32/lib/libpp.a(if_hwctrl.o) (__popcountsi2)
 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
@@ -2550,134 +2550,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x2e /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
  .xt.lit        0x0000000000000000       0x10 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
  .xt.prop       0x0000000000000000       0x78 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .text          0x0000000000000000        0x0 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x51a /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x58 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x22 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0xbf2 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x58 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x9c /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x3a /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x9e /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x2a3 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0xef /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x10 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x52 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x43 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x19c /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x10 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x22 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0xbd /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x16c /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x1f7 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x118 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x40 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x35d /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x777 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x33c /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x134 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x919 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x2ad /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x318 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x3b /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0xbf /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x32 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x22 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x4fb /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x35 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x35 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x29 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x14d /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x52 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x1cc /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x10 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x88 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x34 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x2e /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0xf8 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x10 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x37d /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x11e /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x19 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0xc0 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x8b /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x1c /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x2e /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000     0x89ff /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000       0x46 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_macro   0x0000000000000000      0x55c /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .xt.lit        0x0000000000000000       0x18 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .xt.prop       0x0000000000000000      0x1ec /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .xt.prop       0x0000000000000000       0x24 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .xt.lit        0x0000000000000000        0x8 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
  .xt.prop       0x0000000000000000      0x408 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
  .xt.lit        0x0000000000000000        0x8 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
@@ -2699,6 +2571,133 @@ Discarded input sections
  .xt.prop       0x0000000000000000      0x1ec /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
  .eh_frame      0x0000000000000000       0x28 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
  .xt.prop       0x0000000000000000      0x144 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .text          0x0000000000000000        0x0 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x51a /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x58 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x22 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0xbf2 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x58 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x9c /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x3a /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x9e /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x2a3 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0xef /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x10 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x52 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x43 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x19c /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x10 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x22 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0xbd /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x16c /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x1f7 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x118 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x40 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x35d /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x777 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x33c /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x134 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x919 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x2ad /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x318 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x3b /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0xbf /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x32 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x22 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x4fb /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x35 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x35 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x29 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x14d /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x52 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x1cc /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x10 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x88 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x34 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x2e /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0xf8 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x10 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x37d /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x16 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x11e /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x19 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0xc0 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x8b /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x1c /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x2e /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000     0x89ff /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000       0x46 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_macro   0x0000000000000000      0x55c /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .xt.lit        0x0000000000000000       0x18 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .xt.prop       0x0000000000000000      0x1ec /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .group         0x0000000000000000        0x8 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
@@ -14639,6 +14638,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x27a /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
  .xt.lit        0x0000000000000000       0xa0 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
  .xt.prop       0x0000000000000000      0xb28 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ .xt.prop       0x0000000000000000       0x24 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .xt.lit        0x0000000000000000        0x8 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
  .xt.prop       0x0000000000000000       0x3c /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
  .text          0x0000000000000000        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
@@ -15777,6 +15777,7 @@ Linker script and memory map
 START GROUP
 LOAD /home/esp32/esp/workspace/2090_DHT/build/bt/libbt.a
 LOAD /home/esp32/esp/esp-idf/components/bt/lib/libbtdm_app.a
+LOAD /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a
 LOAD /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a
 LOAD /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a
 LOAD /home/esp32/esp/esp-idf/components/esp32/libhal.a
@@ -17406,8 +17407,6 @@ END GROUP
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/esp-idf/components/newlib/lib/libm.a(lib_a-s_fpclassify.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/workspace/2090_DHT/build/spi_flash/libspi_flash.a(esp_spi_flash.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .bss           0x000000003ffb0016        0x0 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .bss           0x000000003ffb0016        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
@@ -17419,6 +17418,7 @@ END GROUP
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .bss           0x000000003ffb0016        0x0 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
@@ -17516,6 +17516,7 @@ END GROUP
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ .bss           0x000000003ffb0016        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
  .bss           0x000000003ffb0016        0x0 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(deepsleep.o)
@@ -17845,8 +17846,6 @@ END GROUP
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/esp-idf/components/newlib/lib/libm.a(lib_a-s_fpclassify.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/workspace/2090_DHT/build/spi_flash/libspi_flash.a(esp_spi_flash.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .data          0x000000003ffb3328        0x0 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .data          0x000000003ffb3328        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
@@ -17858,6 +17857,7 @@ END GROUP
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .data          0x000000003ffb3328        0x0 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
@@ -17955,6 +17955,7 @@ END GROUP
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ .data          0x000000003ffb3328        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
  .data          0x000000003ffb3328        0x0 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(deepsleep.o)
@@ -17998,7 +17999,7 @@ END GROUP
  .data.s_log_default_level
                 0x000000003ffb36a4        0x4 /home/esp32/esp/workspace/2090_DHT/build/log/liblog.a(log.o)
  .data.lock_init_dht
-                0x000000003ffb36a8        0x4 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
+                0x000000003ffb36a8        0x4 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .data.ets_timer_mux
                 0x000000003ffb36ac        0x4 /home/esp32/esp/esp-idf/components/esp32/lib/libcore.a(ets_timer.o)
  .data.reconnect_internal
@@ -18674,30 +18675,30 @@ END GROUP
  .literal.app_main
                 0x00000000400d0248        0xc /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
                                          0x1c (size before relaxing)
+ .literal       0x00000000400d0254        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
+                                          0xc (size before relaxing)
+ .literal       0x00000000400d0254        0x4 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
+                                         0x10 (size before relaxing)
+ .literal       0x00000000400d0258        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
+                                         0x10 (size before relaxing)
+ .literal       0x00000000400d0258        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
+                                         0x18 (size before relaxing)
+ .literal       0x00000000400d0258        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
+                                          0x4 (size before relaxing)
+ .literal       0x00000000400d0258        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
+                                          0x4 (size before relaxing)
+ .literal       0x00000000400d0258        0x4 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
+                                          0x8 (size before relaxing)
+ .literal       0x00000000400d025c        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
+                                          0x8 (size before relaxing)
  .literal.dht_await_pin_state
-                0x00000000400d0254        0xc /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
+                0x00000000400d025c        0xc /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .literal.dht_read_data
-                0x00000000400d0260       0x14 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
+                0x00000000400d0268       0x14 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
                                          0x40 (size before relaxing)
  .literal.dht_read_float_data
-                0x00000000400d0274        0x4 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
+                0x00000000400d027c        0x4 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
                                          0x10 (size before relaxing)
- .literal       0x00000000400d0278        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
-                                          0xc (size before relaxing)
- .literal       0x00000000400d0278        0x4 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
-                                         0x10 (size before relaxing)
- .literal       0x00000000400d027c        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
-                                         0x10 (size before relaxing)
- .literal       0x00000000400d027c        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
-                                         0x18 (size before relaxing)
- .literal       0x00000000400d027c        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
-                                          0x4 (size before relaxing)
- .literal       0x00000000400d027c        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
-                                          0x4 (size before relaxing)
- .literal       0x00000000400d027c        0x4 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
-                                          0x8 (size before relaxing)
- .literal       0x00000000400d0280        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
-                                          0x8 (size before relaxing)
  .literal.is_valid_gpio
                 0x00000000400d0280        0x4 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .literal.gpio_set_pull_mode
@@ -19094,46 +19095,46 @@ END GROUP
                                          0x2f (size before relaxing)
                 0x00000000400d3da0                app_main
  *fill*         0x00000000400d3dc7        0x1 
+ .text          0x00000000400d3dc8      0x2fa /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
+                0x00000000400d3de8                __adddf3
+                0x00000000400d3f3c                __subdf3
+ *fill*         0x00000000400d40c2        0x2 
+ .text          0x00000000400d40c4      0x1fb /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
+                0x00000000400d41a4                __muldf3
+ *fill*         0x00000000400d42bf        0x1 
+ .text          0x00000000400d42c0      0x20b /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
+                0x00000000400d43a8                __divdf3
+ *fill*         0x00000000400d44cb        0x1 
+ .text          0x00000000400d44cc      0x176 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
+                0x00000000400d44cc                __eqdf2
+                0x00000000400d44cc                __nedf2
+                0x00000000400d4500                __gtdf2
+                0x00000000400d4528                __ledf2
+                0x00000000400d458c                __gedf2
+                0x00000000400d45b4                __ltdf2
+                0x00000000400d4618                __unorddf2
+ *fill*         0x00000000400d4642        0x2 
+ .text          0x00000000400d4644       0x4c /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
+                0x00000000400d4644                __fixdfsi
+ .text          0x00000000400d4690       0x5d /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
+                0x00000000400d4690                __fixunsdfsi
+ *fill*         0x00000000400d46ed        0x3 
+ .text          0x00000000400d46f0       0xa4 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
+                0x00000000400d46f0                __truncdfsf2
+ .text          0x00000000400d4794       0x62 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
+                0x00000000400d4794                __extendsfdf2
+ *fill*         0x00000000400d47f6        0x2 
  .text.dht_await_pin_state
-                0x00000000400d3dc8       0x5d /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- *fill*         0x00000000400d3e25        0x3 
+                0x00000000400d47f8       0x5d /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ *fill*         0x00000000400d4855        0x3 
  .text.dht_read_data
-                0x00000000400d3e28      0x188 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
+                0x00000000400d4858      0x188 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
                                         0x198 (size before relaxing)
-                0x00000000400d3e28                dht_read_data
+                0x00000000400d4858                dht_read_data
  .text.dht_read_float_data
-                0x00000000400d3fb0       0x36 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
+                0x00000000400d49e0       0x36 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
                                          0x3e (size before relaxing)
-                0x00000000400d3fb0                dht_read_float_data
- *fill*         0x00000000400d3fe6        0x2 
- .text          0x00000000400d3fe8      0x2fa /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
-                0x00000000400d4008                __adddf3
-                0x00000000400d415c                __subdf3
- *fill*         0x00000000400d42e2        0x2 
- .text          0x00000000400d42e4      0x1fb /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
-                0x00000000400d43c4                __muldf3
- *fill*         0x00000000400d44df        0x1 
- .text          0x00000000400d44e0      0x20b /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
-                0x00000000400d45c8                __divdf3
- *fill*         0x00000000400d46eb        0x1 
- .text          0x00000000400d46ec      0x176 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
-                0x00000000400d46ec                __eqdf2
-                0x00000000400d46ec                __nedf2
-                0x00000000400d4720                __gtdf2
-                0x00000000400d4748                __ledf2
-                0x00000000400d47ac                __gedf2
-                0x00000000400d47d4                __ltdf2
-                0x00000000400d4838                __unorddf2
- *fill*         0x00000000400d4862        0x2 
- .text          0x00000000400d4864       0x4c /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
-                0x00000000400d4864                __fixdfsi
- .text          0x00000000400d48b0       0x5d /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
-                0x00000000400d48b0                __fixunsdfsi
- *fill*         0x00000000400d490d        0x3 
- .text          0x00000000400d4910       0xa4 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
-                0x00000000400d4910                __truncdfsf2
- .text          0x00000000400d49b4       0x62 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
-                0x00000000400d49b4                __extendsfdf2
+                0x00000000400d49e0                dht_read_float_data
  *fill*         0x00000000400d4a16        0x2 
  .text.is_valid_gpio
                 0x00000000400d4a18       0x1c /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
@@ -20104,195 +20105,195 @@ END GROUP
  *fill*         0x00000000400dba7b        0x0 
  *fill*         0x00000000400dba7b        0x0 
  *fill*         0x00000000400dba7b        0x0 
+ *fill*         0x00000000400dba7b        0x0 
+ *fill*         0x00000000400dba7b        0x0 
+ *fill*         0x00000000400dba7b        0x0 
  *fill*         0x00000000400dba7b        0x1 
- .text          0x00000000400dba7c       0x59 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
-                0x00000000400dba7c                __divsf3
- *fill*         0x00000000400dbad5        0x0 
- *fill*         0x00000000400dbad5        0x0 
- *fill*         0x00000000400dbad5        0x0 
- *fill*         0x00000000400dbad5        0x0 
- *fill*         0x00000000400dbad5        0x0 
- *fill*         0x00000000400dbad5        0x3 
- .text          0x00000000400dbad8       0x3d /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_floatsidf.o)
-                0x00000000400dbad8                __floatunsidf
-                0x00000000400dbae4                __floatsidf
- *fill*         0x00000000400dbb15        0x0 
- *fill*         0x00000000400dbb15        0x3 
- .text          0x00000000400dbb18      0x286 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
-                0x00000000400dbb18                __udivdi3
- *fill*         0x00000000400dbd9e        0x2 
- .text          0x00000000400dbda0      0x26b /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
-                0x00000000400dbda0                __umoddi3
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x0 
- *fill*         0x00000000400dc00b        0x1 
+ .text          0x00000000400dba7c       0x3d /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_floatsidf.o)
+                0x00000000400dba7c                __floatunsidf
+                0x00000000400dba88                __floatsidf
+ *fill*         0x00000000400dbab9        0x0 
+ *fill*         0x00000000400dbab9        0x3 
+ .text          0x00000000400dbabc      0x286 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
+                0x00000000400dbabc                __udivdi3
+ *fill*         0x00000000400dbd42        0x2 
+ .text          0x00000000400dbd44      0x26b /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+                0x00000000400dbd44                __umoddi3
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x0 
+ *fill*         0x00000000400dbfaf        0x1 
  .text.wifi_station_get_reconnect_policy
-                0x00000000400dc00c        0x7 /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_ioctl.o)
-                0x00000000400dc00c                wifi_station_get_reconnect_policy
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x0 
- *fill*         0x00000000400dc013        0x1 
+                0x00000000400dbfb0        0x7 /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_ioctl.o)
+                0x00000000400dbfb0                wifi_station_get_reconnect_policy
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x0 
+ *fill*         0x00000000400dbfb7        0x1 
  .text.ieee80211_phy_type_get
-                0x00000000400dc014       0x24 /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_phy.o)
-                0x00000000400dc014                ieee80211_phy_type_get
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
- *fill*         0x00000000400dc038        0x0 
+                0x00000000400dbfb8       0x24 /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_phy.o)
+                0x00000000400dbfb8                ieee80211_phy_type_get
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
+ *fill*         0x00000000400dbfdc        0x0 
  .text.send_inval
-                0x00000000400dc038        0x7 /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_action.o)
- *fill*         0x00000000400dc03f        0x1 
+                0x00000000400dbfdc        0x7 /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_action.o)
+ *fill*         0x00000000400dbfe3        0x1 
  .text.recv_inval
-                0x00000000400dc040        0x7 /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_action.o)
- *fill*         0x00000000400dc047        0x0 
- *fill*         0x00000000400dc047        0x1 
+                0x00000000400dbfe4        0x7 /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_action.o)
+ *fill*         0x00000000400dbfeb        0x0 
+ *fill*         0x00000000400dbfeb        0x1 
  .text.ccmp_decap
-                0x00000000400dc048       0xae /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_crypto_ccmp.o)
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x0 
- *fill*         0x00000000400dc0f6        0x2 
+                0x00000000400dbfec       0xae /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_crypto_ccmp.o)
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x0 
+ *fill*         0x00000000400dc09a        0x2 
  .text._ZN3nvs8HashList13HashListBlockC2Ev
-                0x00000000400dc0f8       0x26 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
-                0x00000000400dc0f8                _ZN3nvs8HashList13HashListBlockC1Ev
-                0x00000000400dc0f8                _ZN3nvs8HashList13HashListBlockC2Ev
- *fill*         0x00000000400dc11e        0x0 
- *fill*         0x00000000400dc11e        0x0 
- *fill*         0x00000000400dc11e        0x2 
+                0x00000000400dc09c       0x26 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
+                0x00000000400dc09c                _ZN3nvs8HashList13HashListBlockC1Ev
+                0x00000000400dc09c                _ZN3nvs8HashList13HashListBlockC2Ev
+ *fill*         0x00000000400dc0c2        0x0 
+ *fill*         0x00000000400dc0c2        0x0 
+ *fill*         0x00000000400dc0c2        0x2 
  .text._ZSt9__find_ifIPjZN3nvs4Page4loadEjEUljE_ET_S4_S4_T0_St26random_access_iterator_tag
-                0x00000000400dc120       0x66 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x0 
- *fill*         0x00000000400dc186        0x2 
+                0x00000000400dc0c4       0x66 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x0 
+ *fill*         0x00000000400dc12a        0x2 
+ .text          0x00000000400dc12c       0x59 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
+                0x00000000400dc12c                __divsf3
+ *fill*         0x00000000400dc185        0x0 
+ *fill*         0x00000000400dc185        0x0 
+ *fill*         0x00000000400dc185        0x0 
+ *fill*         0x00000000400dc185        0x3 
  .text.wep_decap
                 0x00000000400dc188       0x23 /home/esp32/esp/esp-idf/components/esp32/lib/libnet80211.a(ieee80211_crypto_wep.o)
  *(.irom0.text)
@@ -22191,9 +22192,9 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .debug_frame   0x00000000000017b0       0x28 /home/esp32/esp/esp-idf/components/newlib/lib/libm.a(lib_a-s_fpclassify.o)
  .debug_frame   0x00000000000017d8      0x118 /home/esp32/esp/workspace/2090_DHT/build/spi_flash/libspi_flash.a(esp_spi_flash.o)
  .debug_frame   0x00000000000018f0       0x40 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .debug_frame   0x0000000000001930       0x58 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_frame   0x0000000000001988       0x28 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
- .debug_frame   0x00000000000019b0       0x28 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .debug_frame   0x0000000000001930       0x28 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000001958       0x28 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .debug_frame   0x0000000000001980       0x58 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .debug_frame   0x00000000000019d8      0x160 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .debug_frame   0x0000000000001b38       0x28 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
  .debug_frame   0x0000000000001b60       0xd0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
@@ -22275,64 +22276,64 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .debug_info    0x0000000000015b49      0x146 /home/esp32/esp/esp-idf/components/newlib/lib/libm.a(lib_a-s_fpclassify.o)
  .debug_info    0x0000000000015c8f      0x86f /home/esp32/esp/workspace/2090_DHT/build/spi_flash/libspi_flash.a(esp_spi_flash.o)
  .debug_info    0x00000000000164fe      0x566 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .debug_info    0x0000000000016a64      0x697 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_info    0x00000000000170fb       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
- .debug_info    0x00000000000171d7       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
- .debug_info    0x00000000000172b3       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
- .debug_info    0x000000000001738f       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
- .debug_info    0x000000000001746b       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
- .debug_info    0x0000000000017547       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
- .debug_info    0x0000000000017623       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
- .debug_info    0x00000000000176ff       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_floatsidf.o)
- .debug_info    0x00000000000177db       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
- .debug_info    0x00000000000178b7       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
- .debug_info    0x0000000000017993      0x5a5 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
- .debug_info    0x0000000000017f38      0x5f6 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
- .debug_info    0x000000000001852e     0x1084 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
- .debug_info    0x00000000000195b2       0x53 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
- .debug_info    0x0000000000019605       0x5d /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
- .debug_info    0x0000000000019662       0x55 /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
- .debug_info    0x00000000000196b7       0x7a /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--restore_extra_nw.o)
- .debug_info    0x0000000000019731       0x7a /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--save_extra_nw.o)
- .debug_info    0x00000000000197ab      0x7d4 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
- .debug_info    0x0000000000019f7f     0x1497 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
- .debug_info    0x000000000001b416     0x12b3 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6.o)
- .debug_info    0x000000000001c6c9      0xd32 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_frag.o)
- .debug_info    0x000000000001d3fb     0x112c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(mld6.o)
- .debug_info    0x000000000001e527     0x20fc /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(nd6.o)
- .debug_info    0x0000000000020623      0x17c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(def.o)
- .debug_info    0x000000000002079f      0x912 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(inet_chksum.o)
- .debug_info    0x00000000000210b1      0x876 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip.o)
- .debug_info    0x0000000000021927      0x277 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(memp.o)
- .debug_info    0x0000000000021b9e     0x1099 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(netif.o)
- .debug_info    0x0000000000022c37     0x171e /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(pbuf.o)
- .debug_info    0x0000000000024355     0x249b /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp.o)
- .debug_info    0x00000000000267f0     0x1da9 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_in.o)
- .debug_info    0x0000000000028599     0x1fe2 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_out.o)
- .debug_info    0x000000000002a57b      0xf41 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(timers.o)
- .debug_info    0x000000000002b4bc     0x16bb /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(udp.o)
- .debug_info    0x000000000002cb77     0x19f0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(etharp.o)
- .debug_info    0x000000000002e567      0xf9d /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(sys_arch.o)
- .debug_info    0x000000000002f504      0xf31 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcpip.o)
- .debug_info    0x0000000000030435     0x1c50 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o)
- .debug_info    0x0000000000032085     0x27ad /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcp.o)
- .debug_info    0x0000000000034832      0xcbf /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp.o)
- .debug_info    0x00000000000354f1     0x12e7 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(igmp.o)
- .debug_info    0x00000000000367d8      0x899 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4_addr.o)
- .debug_info    0x0000000000037071      0xed1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp6.o)
- .debug_info    0x0000000000037f42      0x36e /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_addr.o)
- .debug_info    0x00000000000382b0     0x1668 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dns.o)
- .debug_info    0x0000000000039918      0x106 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(init.o)
- .debug_info    0x0000000000039a1e      0x8f7 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putchar.o)
- .debug_info    0x000000000003a315      0x9f7 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putc.o)
- .debug_info    0x000000000003ad0c      0xa18 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-puts.o)
- .debug_info    0x000000000003b724     0xaf1e /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_api.o)
- .debug_info    0x0000000000046642     0x713e /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- .debug_info    0x000000000004d780     0x37c1 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
- .debug_info    0x0000000000050f41     0x6db5 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- .debug_info    0x0000000000057cf6     0x62ef /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
- .debug_info    0x000000000005dfe5     0x2a44 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
- .debug_info    0x0000000000060a29     0x1c52 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ .debug_info    0x0000000000016a64       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
+ .debug_info    0x0000000000016b40       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
+ .debug_info    0x0000000000016c1c       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
+ .debug_info    0x0000000000016cf8       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
+ .debug_info    0x0000000000016dd4       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
+ .debug_info    0x0000000000016eb0       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
+ .debug_info    0x0000000000016f8c       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_floatsidf.o)
+ .debug_info    0x0000000000017068       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
+ .debug_info    0x0000000000017144       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
+ .debug_info    0x0000000000017220      0x5a5 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
+ .debug_info    0x00000000000177c5      0x5f6 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .debug_info    0x0000000000017dbb      0x697 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_info    0x0000000000018452     0x1084 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
+ .debug_info    0x00000000000194d6       0x53 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
+ .debug_info    0x0000000000019529       0x5d /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
+ .debug_info    0x0000000000019586       0x55 /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
+ .debug_info    0x00000000000195db       0x7a /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--restore_extra_nw.o)
+ .debug_info    0x0000000000019655       0x7a /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--save_extra_nw.o)
+ .debug_info    0x00000000000196cf      0x7d4 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
+ .debug_info    0x0000000000019ea3     0x1497 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
+ .debug_info    0x000000000001b33a     0x12b3 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6.o)
+ .debug_info    0x000000000001c5ed      0xd32 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_frag.o)
+ .debug_info    0x000000000001d31f     0x112c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(mld6.o)
+ .debug_info    0x000000000001e44b     0x20fc /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(nd6.o)
+ .debug_info    0x0000000000020547      0x17c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(def.o)
+ .debug_info    0x00000000000206c3      0x912 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(inet_chksum.o)
+ .debug_info    0x0000000000020fd5      0x876 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip.o)
+ .debug_info    0x000000000002184b      0x277 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(memp.o)
+ .debug_info    0x0000000000021ac2     0x1099 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(netif.o)
+ .debug_info    0x0000000000022b5b     0x171e /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(pbuf.o)
+ .debug_info    0x0000000000024279     0x249b /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp.o)
+ .debug_info    0x0000000000026714     0x1da9 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_in.o)
+ .debug_info    0x00000000000284bd     0x1fe2 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_out.o)
+ .debug_info    0x000000000002a49f      0xf41 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(timers.o)
+ .debug_info    0x000000000002b3e0     0x16bb /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(udp.o)
+ .debug_info    0x000000000002ca9b     0x19f0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(etharp.o)
+ .debug_info    0x000000000002e48b      0xf9d /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(sys_arch.o)
+ .debug_info    0x000000000002f428      0xf31 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcpip.o)
+ .debug_info    0x0000000000030359     0x1c50 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o)
+ .debug_info    0x0000000000031fa9     0x27ad /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcp.o)
+ .debug_info    0x0000000000034756      0xcbf /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp.o)
+ .debug_info    0x0000000000035415     0x12e7 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(igmp.o)
+ .debug_info    0x00000000000366fc      0x899 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4_addr.o)
+ .debug_info    0x0000000000036f95      0xed1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp6.o)
+ .debug_info    0x0000000000037e66      0x36e /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_addr.o)
+ .debug_info    0x00000000000381d4     0x1668 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dns.o)
+ .debug_info    0x000000000003983c      0x106 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(init.o)
+ .debug_info    0x0000000000039942      0x8f7 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putchar.o)
+ .debug_info    0x000000000003a239      0x9f7 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putc.o)
+ .debug_info    0x000000000003ac30      0xa18 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-puts.o)
+ .debug_info    0x000000000003b648     0xaf1e /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_api.o)
+ .debug_info    0x0000000000046566     0x713e /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ .debug_info    0x000000000004d6a4     0x37c1 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
+ .debug_info    0x0000000000050e65     0x6db5 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ .debug_info    0x0000000000057c1a     0x62ef /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
+ .debug_info    0x000000000005df09     0x2a44 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
+ .debug_info    0x000000000006094d     0x1c52 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ .debug_info    0x000000000006259f       0xdc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .debug_info    0x000000000006267b       0xff /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
  .debug_info    0x000000000006277a       0xab /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
  .debug_info    0x0000000000062825      0x212 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(deepsleep.o)
@@ -22376,64 +22377,64 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .debug_abbrev  0x0000000000003bf2       0xca /home/esp32/esp/esp-idf/components/newlib/lib/libm.a(lib_a-s_fpclassify.o)
  .debug_abbrev  0x0000000000003cbc      0x2c9 /home/esp32/esp/workspace/2090_DHT/build/spi_flash/libspi_flash.a(esp_spi_flash.o)
  .debug_abbrev  0x0000000000003f85      0x1bc /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .debug_abbrev  0x0000000000004141      0x22f /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_abbrev  0x0000000000004370       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
- .debug_abbrev  0x0000000000004384       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
- .debug_abbrev  0x0000000000004398       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
- .debug_abbrev  0x00000000000043ac       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
- .debug_abbrev  0x00000000000043c0       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
- .debug_abbrev  0x00000000000043d4       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
- .debug_abbrev  0x00000000000043e8       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
- .debug_abbrev  0x00000000000043fc       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_floatsidf.o)
- .debug_abbrev  0x0000000000004410       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
- .debug_abbrev  0x0000000000004424       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
- .debug_abbrev  0x0000000000004438      0x15f /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
- .debug_abbrev  0x0000000000004597      0x167 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
- .debug_abbrev  0x00000000000046fe      0x29a /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
- .debug_abbrev  0x0000000000004998       0x14 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
- .debug_abbrev  0x00000000000049ac       0x14 /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
- .debug_abbrev  0x00000000000049c0       0x43 /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
- .debug_abbrev  0x0000000000004a03       0x14 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--restore_extra_nw.o)
- .debug_abbrev  0x0000000000004a17       0x14 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--save_extra_nw.o)
- .debug_abbrev  0x0000000000004a2b      0x1da /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
- .debug_abbrev  0x0000000000004c05      0x2e6 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
- .debug_abbrev  0x0000000000004eeb      0x2d7 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6.o)
- .debug_abbrev  0x00000000000051c2      0x286 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_frag.o)
- .debug_abbrev  0x0000000000005448      0x32e /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(mld6.o)
- .debug_abbrev  0x0000000000005776      0x358 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(nd6.o)
- .debug_abbrev  0x0000000000005ace       0x96 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(def.o)
- .debug_abbrev  0x0000000000005b64      0x1e0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(inet_chksum.o)
- .debug_abbrev  0x0000000000005d44      0x1d1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip.o)
- .debug_abbrev  0x0000000000005f15       0x9d /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(memp.o)
- .debug_abbrev  0x0000000000005fb2      0x312 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(netif.o)
- .debug_abbrev  0x00000000000062c4      0x376 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(pbuf.o)
- .debug_abbrev  0x000000000000663a      0x42e /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp.o)
- .debug_abbrev  0x0000000000006a68      0x37c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_in.o)
- .debug_abbrev  0x0000000000006de4      0x3ab /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_out.o)
- .debug_abbrev  0x000000000000718f      0x2cb /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(timers.o)
- .debug_abbrev  0x000000000000745a      0x33c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(udp.o)
- .debug_abbrev  0x0000000000007796      0x348 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(etharp.o)
- .debug_abbrev  0x0000000000007ade      0x2e3 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(sys_arch.o)
- .debug_abbrev  0x0000000000007dc1      0x359 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcpip.o)
- .debug_abbrev  0x000000000000811a      0x3a8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o)
- .debug_abbrev  0x00000000000084c2      0x354 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcp.o)
- .debug_abbrev  0x0000000000008816      0x296 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp.o)
- .debug_abbrev  0x0000000000008aac      0x33b /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(igmp.o)
- .debug_abbrev  0x0000000000008de7      0x23f /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4_addr.o)
- .debug_abbrev  0x0000000000009026      0x28c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp6.o)
- .debug_abbrev  0x00000000000092b2      0x166 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_addr.o)
- .debug_abbrev  0x0000000000009418      0x30f /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dns.o)
- .debug_abbrev  0x0000000000009727       0x74 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(init.o)
- .debug_abbrev  0x000000000000979b      0x1fd /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putchar.o)
- .debug_abbrev  0x0000000000009998      0x228 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putc.o)
- .debug_abbrev  0x0000000000009bc0      0x211 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-puts.o)
- .debug_abbrev  0x0000000000009dd1      0xb16 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_api.o)
- .debug_abbrev  0x000000000000a8e7      0xadb /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- .debug_abbrev  0x000000000000b3c2      0x81a /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
- .debug_abbrev  0x000000000000bbdc      0xa5b /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- .debug_abbrev  0x000000000000c637      0xa41 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
- .debug_abbrev  0x000000000000d078      0x5fe /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
- .debug_abbrev  0x000000000000d676      0x332 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ .debug_abbrev  0x0000000000004141       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
+ .debug_abbrev  0x0000000000004155       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
+ .debug_abbrev  0x0000000000004169       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
+ .debug_abbrev  0x000000000000417d       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
+ .debug_abbrev  0x0000000000004191       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
+ .debug_abbrev  0x00000000000041a5       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
+ .debug_abbrev  0x00000000000041b9       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_floatsidf.o)
+ .debug_abbrev  0x00000000000041cd       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
+ .debug_abbrev  0x00000000000041e1       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
+ .debug_abbrev  0x00000000000041f5      0x15f /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x0000000000004354      0x167 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x00000000000044bb      0x22f /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_abbrev  0x00000000000046ea      0x29a /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
+ .debug_abbrev  0x0000000000004984       0x14 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
+ .debug_abbrev  0x0000000000004998       0x14 /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
+ .debug_abbrev  0x00000000000049ac       0x43 /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
+ .debug_abbrev  0x00000000000049ef       0x14 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--restore_extra_nw.o)
+ .debug_abbrev  0x0000000000004a03       0x14 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--save_extra_nw.o)
+ .debug_abbrev  0x0000000000004a17      0x1da /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
+ .debug_abbrev  0x0000000000004bf1      0x2e6 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
+ .debug_abbrev  0x0000000000004ed7      0x2d7 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6.o)
+ .debug_abbrev  0x00000000000051ae      0x286 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_frag.o)
+ .debug_abbrev  0x0000000000005434      0x32e /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(mld6.o)
+ .debug_abbrev  0x0000000000005762      0x358 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(nd6.o)
+ .debug_abbrev  0x0000000000005aba       0x96 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(def.o)
+ .debug_abbrev  0x0000000000005b50      0x1e0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(inet_chksum.o)
+ .debug_abbrev  0x0000000000005d30      0x1d1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip.o)
+ .debug_abbrev  0x0000000000005f01       0x9d /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(memp.o)
+ .debug_abbrev  0x0000000000005f9e      0x312 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(netif.o)
+ .debug_abbrev  0x00000000000062b0      0x376 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(pbuf.o)
+ .debug_abbrev  0x0000000000006626      0x42e /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp.o)
+ .debug_abbrev  0x0000000000006a54      0x37c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_in.o)
+ .debug_abbrev  0x0000000000006dd0      0x3ab /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_out.o)
+ .debug_abbrev  0x000000000000717b      0x2cb /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(timers.o)
+ .debug_abbrev  0x0000000000007446      0x33c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(udp.o)
+ .debug_abbrev  0x0000000000007782      0x348 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(etharp.o)
+ .debug_abbrev  0x0000000000007aca      0x2e3 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(sys_arch.o)
+ .debug_abbrev  0x0000000000007dad      0x359 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcpip.o)
+ .debug_abbrev  0x0000000000008106      0x3a8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o)
+ .debug_abbrev  0x00000000000084ae      0x354 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcp.o)
+ .debug_abbrev  0x0000000000008802      0x296 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp.o)
+ .debug_abbrev  0x0000000000008a98      0x33b /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(igmp.o)
+ .debug_abbrev  0x0000000000008dd3      0x23f /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4_addr.o)
+ .debug_abbrev  0x0000000000009012      0x28c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp6.o)
+ .debug_abbrev  0x000000000000929e      0x166 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_addr.o)
+ .debug_abbrev  0x0000000000009404      0x30f /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dns.o)
+ .debug_abbrev  0x0000000000009713       0x74 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(init.o)
+ .debug_abbrev  0x0000000000009787      0x1fd /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putchar.o)
+ .debug_abbrev  0x0000000000009984      0x228 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putc.o)
+ .debug_abbrev  0x0000000000009bac      0x211 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-puts.o)
+ .debug_abbrev  0x0000000000009dbd      0xb16 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_api.o)
+ .debug_abbrev  0x000000000000a8d3      0xadb /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ .debug_abbrev  0x000000000000b3ae      0x81a /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
+ .debug_abbrev  0x000000000000bbc8      0xa5b /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ .debug_abbrev  0x000000000000c623      0xa41 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
+ .debug_abbrev  0x000000000000d064      0x5fe /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
+ .debug_abbrev  0x000000000000d662      0x332 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ .debug_abbrev  0x000000000000d994       0x14 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .debug_abbrev  0x000000000000d9a8       0x9b /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
  .debug_abbrev  0x000000000000da43       0x5d /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
  .debug_abbrev  0x000000000000daa0      0x135 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(deepsleep.o)
@@ -22470,9 +22471,9 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .debug_loc     0x0000000000009c29       0x86 /home/esp32/esp/esp-idf/components/newlib/lib/libm.a(lib_a-s_fpclassify.o)
  .debug_loc     0x0000000000009caf      0x17d /home/esp32/esp/workspace/2090_DHT/build/spi_flash/libspi_flash.a(esp_spi_flash.o)
  .debug_loc     0x0000000000009e2c       0x21 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .debug_loc     0x0000000000009e4d      0x201 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_loc     0x000000000000a04e      0xaad /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
- .debug_loc     0x000000000000aafb      0x8d0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .debug_loc     0x0000000000009e4d      0xaad /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
+ .debug_loc     0x000000000000a8fa      0x8d0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .debug_loc     0x000000000000b1ca      0x201 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .debug_loc     0x000000000000b3cb      0x752 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .debug_loc     0x000000000000bb1d       0x5d /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
  .debug_loc     0x000000000000bb7a      0x6dc /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
@@ -22586,121 +22587,121 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .debug_aranges
                 0x0000000000000a48       0x28 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
  .debug_aranges
-                0x0000000000000a70       0x30 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
+                0x0000000000000a70       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
  .debug_aranges
-                0x0000000000000aa0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
+                0x0000000000000a90       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
  .debug_aranges
-                0x0000000000000ac0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
+                0x0000000000000ab0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
  .debug_aranges
-                0x0000000000000ae0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
+                0x0000000000000ad0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
  .debug_aranges
-                0x0000000000000b00       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
+                0x0000000000000af0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
  .debug_aranges
-                0x0000000000000b20       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
+                0x0000000000000b10       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
  .debug_aranges
-                0x0000000000000b40       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
+                0x0000000000000b30       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_floatsidf.o)
  .debug_aranges
-                0x0000000000000b60       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
+                0x0000000000000b50       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
  .debug_aranges
-                0x0000000000000b80       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_floatsidf.o)
+                0x0000000000000b70       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
  .debug_aranges
-                0x0000000000000ba0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
+                0x0000000000000b90       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
  .debug_aranges
-                0x0000000000000bc0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
+                0x0000000000000bb0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
  .debug_aranges
-                0x0000000000000be0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
+                0x0000000000000bd0       0x30 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .debug_aranges
-                0x0000000000000c00       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+                0x0000000000000c00       0x88 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .debug_aranges
-                0x0000000000000c20       0x88 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
+                0x0000000000000c88       0x20 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
  .debug_aranges
-                0x0000000000000ca8       0x20 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
+                0x0000000000000ca8       0x20 /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
  .debug_aranges
-                0x0000000000000cc8       0x20 /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
+                0x0000000000000cc8       0x18 /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
  .debug_aranges
-                0x0000000000000ce8       0x18 /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
+                0x0000000000000ce0       0x20 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--restore_extra_nw.o)
  .debug_aranges
-                0x0000000000000d00       0x20 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--restore_extra_nw.o)
+                0x0000000000000d00       0x20 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--save_extra_nw.o)
  .debug_aranges
-                0x0000000000000d20       0x20 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--save_extra_nw.o)
+                0x0000000000000d20       0x20 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
  .debug_aranges
-                0x0000000000000d40       0x20 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
+                0x0000000000000d40       0x58 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
  .debug_aranges
-                0x0000000000000d60       0x58 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
+                0x0000000000000d98       0x50 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6.o)
  .debug_aranges
-                0x0000000000000db8       0x50 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6.o)
+                0x0000000000000de8       0x38 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_frag.o)
  .debug_aranges
-                0x0000000000000e08       0x38 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_frag.o)
+                0x0000000000000e20       0x80 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(mld6.o)
  .debug_aranges
-                0x0000000000000e40       0x80 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(mld6.o)
+                0x0000000000000ea0       0xc8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(nd6.o)
  .debug_aranges
-                0x0000000000000ec0       0xc8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(nd6.o)
+                0x0000000000000f68       0x38 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(def.o)
  .debug_aranges
-                0x0000000000000f88       0x38 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(def.o)
+                0x0000000000000fa0       0x70 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(inet_chksum.o)
  .debug_aranges
-                0x0000000000000fc0       0x70 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(inet_chksum.o)
+                0x0000000000001010       0x28 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip.o)
  .debug_aranges
-                0x0000000000001030       0x28 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip.o)
+                0x0000000000001038       0x18 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(memp.o)
  .debug_aranges
-                0x0000000000001058       0x18 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(memp.o)
+                0x0000000000001050       0xb0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(netif.o)
  .debug_aranges
-                0x0000000000001070       0xb0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(netif.o)
+                0x0000000000001100       0xe0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(pbuf.o)
  .debug_aranges
-                0x0000000000001120       0xe0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(pbuf.o)
+                0x00000000000011e0      0x178 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp.o)
  .debug_aranges
-                0x0000000000001200      0x178 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp.o)
+                0x0000000000001358       0x60 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_in.o)
  .debug_aranges
-                0x0000000000001378       0x60 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_in.o)
+                0x00000000000013b8       0x98 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_out.o)
  .debug_aranges
-                0x00000000000013d8       0x98 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_out.o)
+                0x0000000000001450       0x88 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(timers.o)
  .debug_aranges
-                0x0000000000001470       0x88 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(timers.o)
+                0x00000000000014d8       0x98 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(udp.o)
  .debug_aranges
-                0x00000000000014f8       0x98 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(udp.o)
+                0x0000000000001570       0x98 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(etharp.o)
  .debug_aranges
-                0x0000000000001590       0x98 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(etharp.o)
+                0x0000000000001608       0xe8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(sys_arch.o)
  .debug_aranges
-                0x0000000000001628       0xe8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(sys_arch.o)
+                0x00000000000016f0       0x88 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcpip.o)
  .debug_aranges
-                0x0000000000001710       0x88 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcpip.o)
+                0x0000000000001778       0xb0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o)
  .debug_aranges
-                0x0000000000001798       0xb0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o)
+                0x0000000000001828      0x150 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcp.o)
  .debug_aranges
-                0x0000000000001848      0x150 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcp.o)
+                0x0000000000001978       0x30 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp.o)
  .debug_aranges
-                0x0000000000001998       0x30 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp.o)
+                0x00000000000019a8       0xa8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(igmp.o)
  .debug_aranges
-                0x00000000000019c8       0xa8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(igmp.o)
+                0x0000000000001a50       0x48 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4_addr.o)
  .debug_aranges
-                0x0000000000001a70       0x48 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4_addr.o)
+                0x0000000000001a98       0x48 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp6.o)
  .debug_aranges
-                0x0000000000001ab8       0x48 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp6.o)
+                0x0000000000001ae0       0x30 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_addr.o)
  .debug_aranges
-                0x0000000000001b00       0x30 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_addr.o)
+                0x0000000000001b10       0xb0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dns.o)
  .debug_aranges
-                0x0000000000001b30       0xb0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dns.o)
+                0x0000000000001bc0       0x20 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(init.o)
  .debug_aranges
-                0x0000000000001be0       0x20 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(init.o)
+                0x0000000000001be0       0x20 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putchar.o)
  .debug_aranges
-                0x0000000000001c00       0x20 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putchar.o)
+                0x0000000000001c00       0x20 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putc.o)
  .debug_aranges
-                0x0000000000001c20       0x20 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putc.o)
+                0x0000000000001c20       0x20 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-puts.o)
  .debug_aranges
-                0x0000000000001c40       0x20 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-puts.o)
+                0x0000000000001c40      0x1a0 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_api.o)
  .debug_aranges
-                0x0000000000001c60      0x1a0 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_api.o)
+                0x0000000000001de0       0x78 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
  .debug_aranges
-                0x0000000000001e00       0x78 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+                0x0000000000001e58       0x40 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
  .debug_aranges
-                0x0000000000001e78       0x40 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
+                0x0000000000001e98       0xe8 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
  .debug_aranges
-                0x0000000000001eb8       0xe8 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+                0x0000000000001f80       0x30 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
  .debug_aranges
-                0x0000000000001fa0       0x30 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
+                0x0000000000001fb0       0x30 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
  .debug_aranges
-                0x0000000000001fd0       0x30 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
+                0x0000000000001fe0       0xc0 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
  .debug_aranges
-                0x0000000000002000       0xc0 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+                0x00000000000020a0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .debug_aranges
                 0x00000000000020c0       0x20 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
  .debug_aranges
@@ -22740,9 +22741,9 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .debug_ranges  0x0000000000000a48       0x18 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-dtoa.o)
  .debug_ranges  0x0000000000000a60       0x78 /home/esp32/esp/workspace/2090_DHT/build/spi_flash/libspi_flash.a(esp_spi_flash.o)
  .debug_ranges  0x0000000000000ad8       0x18 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .debug_ranges  0x0000000000000af0       0x68 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_ranges  0x0000000000000b58       0x68 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
- .debug_ranges  0x0000000000000bc0       0x70 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .debug_ranges  0x0000000000000af0       0x68 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000000b58       0x70 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .debug_ranges  0x0000000000000bc8       0x68 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .debug_ranges  0x0000000000000c30       0x78 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .debug_ranges  0x0000000000000ca8       0x10 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
  .debug_ranges  0x0000000000000cb8       0xc0 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
@@ -22934,7 +22935,7 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .debug_macro   0x000000000002344f       0x46 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
  .debug_macro   0x0000000000023495      0x1e4 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
  .debug_macro   0x0000000000023679       0x1c /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .debug_macro   0x0000000000023695      0x30f /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
+ .debug_macro   0x0000000000023695      0x30f /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .debug_macro   0x00000000000239a4      0x30e /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .debug_macro   0x0000000000023cb2       0x35 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .debug_macro   0x0000000000023ce7      0x185 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
@@ -23099,7 +23100,7 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .debug_macro   0x0000000000036c86       0xb6 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(wlanif.o)
  .debug_macro   0x0000000000036d3c      0x45a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethip6.o)
 
-.debug_line     0x0000000000000000    0x3ee4f
+.debug_line     0x0000000000000000    0x3eecd
  .debug_line    0x0000000000000000      0xbd5 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(cpu_start.o)
  .debug_line    0x0000000000000bd5      0x847 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(heap_alloc_caps.o)
  .debug_line    0x000000000000141c      0x7c4 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(ipc.o)
@@ -23132,75 +23133,75 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .debug_line    0x000000000000f97b       0xb2 /home/esp32/esp/esp-idf/components/newlib/lib/libm.a(lib_a-sf_nan.o)
  .debug_line    0x000000000000fa2d      0x1ae /home/esp32/esp/esp-idf/components/newlib/lib/libm.a(lib_a-s_fpclassify.o)
  .debug_line    0x000000000000fbdb      0x9be /home/esp32/esp/workspace/2090_DHT/build/spi_flash/libspi_flash.a(esp_spi_flash.o)
- .debug_line    0x0000000000010599      0x819 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .debug_line    0x0000000000010db2      0x80d /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .debug_line    0x00000000000115bf      0x130 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
- .debug_line    0x00000000000116ef      0x6b8 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
- .debug_line    0x0000000000011da7      0x4a9 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
- .debug_line    0x0000000000012250      0x4c6 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
- .debug_line    0x0000000000012716      0x3a6 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
- .debug_line    0x0000000000012abc      0x11e /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
- .debug_line    0x0000000000012bda      0x14e /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
- .debug_line    0x0000000000012d28      0x100 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_floatsidf.o)
- .debug_line    0x0000000000012e28      0x1cc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
- .debug_line    0x0000000000012ff4      0x14e /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
- .debug_line    0x0000000000013142      0x1ad /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
- .debug_line    0x00000000000132ef      0x1ca /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
- .debug_line    0x00000000000134b9      0xb19 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
- .debug_line    0x0000000000013fd2       0x92 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
- .debug_line    0x0000000000014064      0x2ef /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
- .debug_line    0x0000000000014353       0x50 /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
- .debug_line    0x00000000000143a3       0x66 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--restore_extra_nw.o)
- .debug_line    0x0000000000014409       0x66 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--save_extra_nw.o)
- .debug_line    0x000000000001446f      0x999 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
- .debug_line    0x0000000000014e08      0xe34 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
- .debug_line    0x0000000000015c3c     0x1194 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6.o)
- .debug_line    0x0000000000016dd0      0xd3c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_frag.o)
- .debug_line    0x0000000000017b0c      0xf56 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(mld6.o)
- .debug_line    0x0000000000018a62     0x249a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(nd6.o)
- .debug_line    0x000000000001aefc      0x7f2 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(def.o)
- .debug_line    0x000000000001b6ee      0xc2a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(inet_chksum.o)
- .debug_line    0x000000000001c318      0x8d7 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip.o)
- .debug_line    0x000000000001cbef      0xa16 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(memp.o)
- .debug_line    0x000000000001d605      0xfac /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(netif.o)
- .debug_line    0x000000000001e5b1     0x129e /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(pbuf.o)
- .debug_line    0x000000000001f84f     0x2193 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp.o)
- .debug_line    0x00000000000219e2     0x1c82 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_in.o)
- .debug_line    0x0000000000023664     0x1512 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_out.o)
- .debug_line    0x0000000000024b76      0xc75 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(timers.o)
- .debug_line    0x00000000000257eb     0x1528 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(udp.o)
- .debug_line    0x0000000000026d13     0x11ca /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(etharp.o)
- .debug_line    0x0000000000027edd      0xcfc /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(sys_arch.o)
- .debug_line    0x0000000000028bd9      0xc49 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcpip.o)
- .debug_line    0x0000000000029822     0x1474 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o)
- .debug_line    0x000000000002ac96     0x1c58 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcp.o)
- .debug_line    0x000000000002c8ee      0xa14 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp.o)
- .debug_line    0x000000000002d302     0x1000 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(igmp.o)
- .debug_line    0x000000000002e302      0xc00 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4_addr.o)
- .debug_line    0x000000000002ef02      0xa65 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp6.o)
- .debug_line    0x000000000002f967      0xb6d /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_addr.o)
- .debug_line    0x00000000000304d4     0x144a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dns.o)
- .debug_line    0x000000000003191e      0x9d4 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(init.o)
- .debug_line    0x00000000000322f2      0x217 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putchar.o)
- .debug_line    0x0000000000032509      0x276 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putc.o)
- .debug_line    0x000000000003277f      0x299 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-puts.o)
- .debug_line    0x0000000000032a18     0x1f17 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_api.o)
- .debug_line    0x000000000003492f     0x12c8 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- .debug_line    0x0000000000035bf7      0xd8d /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
- .debug_line    0x0000000000036984     0x1eab /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- .debug_line    0x000000000003882f     0x1347 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
- .debug_line    0x0000000000039b76      0xb47 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
- .debug_line    0x000000000003a6bd     0x12d4 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
- .debug_line    0x000000000003b991       0xb8 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
- .debug_line    0x000000000003ba49       0x6d /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
- .debug_line    0x000000000003bab6      0x3b2 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(deepsleep.o)
- .debug_line    0x000000000003be68      0xa45 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(event_loop.o)
- .debug_line    0x000000000003c8ad      0x55f /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(abi.o)
- .debug_line    0x000000000003ce0c      0xba5 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(event_default_handlers.o)
- .debug_line    0x000000000003d9b1      0xb0a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(wlanif.o)
- .debug_line    0x000000000003e4bb      0x994 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethip6.o)
+ .debug_line    0x0000000000010599      0x853 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
+ .debug_line    0x0000000000010dec      0x6b8 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
+ .debug_line    0x00000000000114a4      0x4a9 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
+ .debug_line    0x000000000001194d      0x4c6 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
+ .debug_line    0x0000000000011e13      0x3a6 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_cmpdf2.o)
+ .debug_line    0x00000000000121b9      0x11e /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixdfsi.o)
+ .debug_line    0x00000000000122d7      0x14e /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_fixunsdfsi.o)
+ .debug_line    0x0000000000012425      0x100 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_floatsidf.o)
+ .debug_line    0x0000000000012525      0x1cc /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_truncdfsf2.o)
+ .debug_line    0x00000000000126f1      0x14e /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
+ .debug_line    0x000000000001283f      0x1ad /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
+ .debug_line    0x00000000000129ec      0x1ca /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .debug_line    0x0000000000012bb6      0x851 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+ .debug_line    0x0000000000013407      0xb19 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
+ .debug_line    0x0000000000013f20       0x92 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
+ .debug_line    0x0000000000013fb2      0x2ef /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
+ .debug_line    0x00000000000142a1       0x50 /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
+ .debug_line    0x00000000000142f1       0x66 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--restore_extra_nw.o)
+ .debug_line    0x0000000000014357       0x66 /home/esp32/esp/esp-idf/components/esp32/libhal.a(state_asm--save_extra_nw.o)
+ .debug_line    0x00000000000143bd      0x999 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
+ .debug_line    0x0000000000014d56      0xe34 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
+ .debug_line    0x0000000000015b8a     0x1194 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6.o)
+ .debug_line    0x0000000000016d1e      0xd3c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_frag.o)
+ .debug_line    0x0000000000017a5a      0xf56 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(mld6.o)
+ .debug_line    0x00000000000189b0     0x249a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(nd6.o)
+ .debug_line    0x000000000001ae4a      0x7f2 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(def.o)
+ .debug_line    0x000000000001b63c      0xc2a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(inet_chksum.o)
+ .debug_line    0x000000000001c266      0x8d7 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip.o)
+ .debug_line    0x000000000001cb3d      0xa16 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(memp.o)
+ .debug_line    0x000000000001d553      0xfac /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(netif.o)
+ .debug_line    0x000000000001e4ff     0x129e /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(pbuf.o)
+ .debug_line    0x000000000001f79d     0x2193 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp.o)
+ .debug_line    0x0000000000021930     0x1c82 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_in.o)
+ .debug_line    0x00000000000235b2     0x1512 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_out.o)
+ .debug_line    0x0000000000024ac4      0xc75 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(timers.o)
+ .debug_line    0x0000000000025739     0x1528 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(udp.o)
+ .debug_line    0x0000000000026c61     0x11ca /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(etharp.o)
+ .debug_line    0x0000000000027e2b      0xcfc /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(sys_arch.o)
+ .debug_line    0x0000000000028b27      0xc49 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcpip.o)
+ .debug_line    0x0000000000029770     0x1474 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o)
+ .debug_line    0x000000000002abe4     0x1c58 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcp.o)
+ .debug_line    0x000000000002c83c      0xa14 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp.o)
+ .debug_line    0x000000000002d250     0x1000 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(igmp.o)
+ .debug_line    0x000000000002e250      0xc00 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4_addr.o)
+ .debug_line    0x000000000002ee50      0xa65 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp6.o)
+ .debug_line    0x000000000002f8b5      0xb6d /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_addr.o)
+ .debug_line    0x0000000000030422     0x144a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dns.o)
+ .debug_line    0x000000000003186c      0x9d4 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(init.o)
+ .debug_line    0x0000000000032240      0x217 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putchar.o)
+ .debug_line    0x0000000000032457      0x276 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putc.o)
+ .debug_line    0x00000000000326cd      0x299 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-puts.o)
+ .debug_line    0x0000000000032966     0x1f17 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_api.o)
+ .debug_line    0x000000000003487d     0x12c8 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ .debug_line    0x0000000000035b45      0xd8d /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
+ .debug_line    0x00000000000368d2     0x1eab /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ .debug_line    0x000000000003877d     0x1347 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
+ .debug_line    0x0000000000039ac4      0xb47 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
+ .debug_line    0x000000000003a60b     0x12d4 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ .debug_line    0x000000000003b8df      0x130 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
+ .debug_line    0x000000000003ba0f       0xb8 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
+ .debug_line    0x000000000003bac7       0x6d /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
+ .debug_line    0x000000000003bb34      0x3b2 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(deepsleep.o)
+ .debug_line    0x000000000003bee6      0xa45 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(event_loop.o)
+ .debug_line    0x000000000003c92b      0x55f /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(abi.o)
+ .debug_line    0x000000000003ce8a      0xba5 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(event_default_handlers.o)
+ .debug_line    0x000000000003da2f      0xb0a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(wlanif.o)
+ .debug_line    0x000000000003e539      0x994 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethip6.o)
 
-.debug_str      0x0000000000000000    0xb2ef3
+.debug_str      0x0000000000000000    0xb2f2a
  .debug_str     0x0000000000000000    0x4e250 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(cpu_start.o)
                                       0x4e8bc (size before relaxing)
  .debug_str     0x000000000004e250      0x162 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(heap_alloc_caps.o)
@@ -23259,108 +23260,108 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
                                       0x3fbeb (size before relaxing)
  .debug_str     0x00000000000624cd    0x34579 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
                                       0x52674 (size before relaxing)
- .debug_str     0x0000000000096a46      0x172 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
-                                      0x461da (size before relaxing)
- .debug_str     0x0000000000096bb8      0x19a /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
+ .debug_str     0x0000000000096a46      0x19a /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
                                         0x223 (size before relaxing)
- .debug_str     0x0000000000096d52        0xa /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .debug_str     0x0000000000096be0        0xa /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
                                         0x223 (size before relaxing)
- .debug_str     0x0000000000096d5c     0x157b /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
+ .debug_str     0x0000000000096bea      0x1a9 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
+                                      0x461e3 (size before relaxing)
+ .debug_str     0x0000000000096d93     0x157b /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
                                       0x514f6 (size before relaxing)
- .debug_str     0x00000000000982d7       0x4f /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
+ .debug_str     0x000000000009830e       0x4f /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
                                          0x82 (size before relaxing)
- .debug_str     0x0000000000098326     0x3374 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
+ .debug_str     0x000000000009835d     0x3374 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethernet.o)
                                       0x25984 (size before relaxing)
- .debug_str     0x000000000009b69a     0x2c64 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
+ .debug_str     0x000000000009b6d1     0x2c64 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4.o)
                                       0x27d2a (size before relaxing)
- .debug_str     0x000000000009e2fe      0x706 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6.o)
+ .debug_str     0x000000000009e335      0x706 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6.o)
                                       0x27525 (size before relaxing)
- .debug_str     0x000000000009ea04      0x1f1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_frag.o)
+ .debug_str     0x000000000009ea3b      0x1f1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_frag.o)
                                       0x257b7 (size before relaxing)
- .debug_str     0x000000000009ebf5      0x3d1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(mld6.o)
+ .debug_str     0x000000000009ec2c      0x3d1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(mld6.o)
                                       0x256f9 (size before relaxing)
- .debug_str     0x000000000009efc6      0x50a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(nd6.o)
+ .debug_str     0x000000000009effd      0x50a /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(nd6.o)
                                       0x25e74 (size before relaxing)
- .debug_str     0x000000000009f4d0       0x33 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(def.o)
+ .debug_str     0x000000000009f507       0x33 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(def.o)
                                       0x1e365 (size before relaxing)
- .debug_str     0x000000000009f503      0x179 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(inet_chksum.o)
+ .debug_str     0x000000000009f53a      0x179 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(inet_chksum.o)
                                       0x22aca (size before relaxing)
- .debug_str     0x000000000009f67c       0x69 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip.o)
+ .debug_str     0x000000000009f6b3       0x69 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip.o)
                                       0x2516c (size before relaxing)
- .debug_str     0x000000000009f6e5     0x347c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(memp.o)
+ .debug_str     0x000000000009f71c     0x347c /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(memp.o)
                                       0x2a82b (size before relaxing)
- .debug_str     0x00000000000a2b61      0x2f3 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(netif.o)
+ .debug_str     0x00000000000a2b98      0x2f3 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(netif.o)
                                       0x2887b (size before relaxing)
- .debug_str     0x00000000000a2e54      0x695 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(pbuf.o)
+ .debug_str     0x00000000000a2e8b      0x695 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(pbuf.o)
                                       0x27718 (size before relaxing)
- .debug_str     0x00000000000a34e9      0x684 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp.o)
+ .debug_str     0x00000000000a3520      0x684 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp.o)
                                       0x2787a (size before relaxing)
- .debug_str     0x00000000000a3b6d      0x232 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_in.o)
+ .debug_str     0x00000000000a3ba4      0x232 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_in.o)
                                       0x2772e (size before relaxing)
- .debug_str     0x00000000000a3d9f      0x22d /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_out.o)
+ .debug_str     0x00000000000a3dd6      0x22d /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcp_out.o)
                                       0x272f2 (size before relaxing)
- .debug_str     0x00000000000a3fcc      0x1ed /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(timers.o)
+ .debug_str     0x00000000000a4003      0x1ed /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(timers.o)
                                       0x2898d (size before relaxing)
- .debug_str     0x00000000000a41b9      0x2af /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(udp.o)
+ .debug_str     0x00000000000a41f0      0x2af /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(udp.o)
                                       0x2697a (size before relaxing)
- .debug_str     0x00000000000a4468      0x3f4 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(etharp.o)
+ .debug_str     0x00000000000a449f      0x3f4 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(etharp.o)
                                       0x26ac1 (size before relaxing)
- .debug_str     0x00000000000a485c      0x287 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(sys_arch.o)
+ .debug_str     0x00000000000a4893      0x287 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(sys_arch.o)
                                       0x1f012 (size before relaxing)
- .debug_str     0x00000000000a4ae3      0x4f1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcpip.o)
+ .debug_str     0x00000000000a4b1a      0x4f1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(tcpip.o)
                                       0x27154 (size before relaxing)
- .debug_str     0x00000000000a4fd4      0xcc1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o)
+ .debug_str     0x00000000000a500b      0xcc1 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcpserver.o)
                                       0x29c90 (size before relaxing)
- .debug_str     0x00000000000a5c95      0x6f6 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcp.o)
+ .debug_str     0x00000000000a5ccc      0x6f6 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dhcp.o)
                                       0x26b71 (size before relaxing)
- .debug_str     0x00000000000a638b       0xc3 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp.o)
+ .debug_str     0x00000000000a63c2       0xc3 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp.o)
                                       0x254c0 (size before relaxing)
- .debug_str     0x00000000000a644e      0x268 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(igmp.o)
+ .debug_str     0x00000000000a6485      0x268 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(igmp.o)
                                       0x2568b (size before relaxing)
- .debug_str     0x00000000000a66b6      0x1d8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4_addr.o)
+ .debug_str     0x00000000000a66ed      0x1d8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip4_addr.o)
                                       0x23e7e (size before relaxing)
- .debug_str     0x00000000000a688e       0xa8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp6.o)
+ .debug_str     0x00000000000a68c5       0xa8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(icmp6.o)
                                       0x258c3 (size before relaxing)
- .debug_str     0x00000000000a6936       0xea /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_addr.o)
+ .debug_str     0x00000000000a696d       0xea /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ip6_addr.o)
                                       0x22805 (size before relaxing)
- .debug_str     0x00000000000a6a20      0x861 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dns.o)
+ .debug_str     0x00000000000a6a57      0x861 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(dns.o)
                                       0x25c33 (size before relaxing)
- .debug_str     0x00000000000a7281       0x49 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(init.o)
+ .debug_str     0x00000000000a72b8       0x49 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(init.o)
                                       0x29f26 (size before relaxing)
- .debug_str     0x00000000000a72ca       0x4d /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putchar.o)
+ .debug_str     0x00000000000a7301       0x4d /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putchar.o)
                                         0x535 (size before relaxing)
- .debug_str     0x00000000000a7317       0x41 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putc.o)
+ .debug_str     0x00000000000a734e       0x41 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-putc.o)
                                         0x5ae (size before relaxing)
- .debug_str     0x00000000000a7358       0x78 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-puts.o)
+ .debug_str     0x00000000000a738f       0x78 /home/esp32/esp/esp-idf/components/newlib/lib/libc.a(lib_a-puts.o)
                                         0x5ac (size before relaxing)
- .debug_str     0x00000000000a73d0     0x8f91 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_api.o)
+ .debug_str     0x00000000000a7407     0x8f91 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_api.o)
                                       0x2496d (size before relaxing)
- .debug_str     0x00000000000b0361      0xa75 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ .debug_str     0x00000000000b0398      0xa75 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
                                       0x12431 (size before relaxing)
- .debug_str     0x00000000000b0dd6      0x501 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
+ .debug_str     0x00000000000b0e0d      0x501 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_item_hash_list.o)
                                        0xef72 (size before relaxing)
- .debug_str     0x00000000000b12d7      0x61c /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ .debug_str     0x00000000000b130e      0x61c /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_page.o)
                                       0x102fd (size before relaxing)
- .debug_str     0x00000000000b18f3      0x335 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
+ .debug_str     0x00000000000b192a      0x335 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
                                       0x11529 (size before relaxing)
- .debug_str     0x00000000000b1c28       0x3f /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
+ .debug_str     0x00000000000b1c5f       0x3f /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
                                        0xe3e4 (size before relaxing)
- .debug_str     0x00000000000b1c67      0x92c /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ .debug_str     0x00000000000b1c9e      0x92c /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
                                       0x2ae43 (size before relaxing)
- .debug_str     0x00000000000b2593       0x86 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
+ .debug_str     0x00000000000b25ca       0x86 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
                                         0x1cd (size before relaxing)
- .debug_str     0x00000000000b2619      0x1b7 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
- .debug_str     0x00000000000b2619       0xef /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(deepsleep.o)
+ .debug_str     0x00000000000b2650      0x1b7 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
+ .debug_str     0x00000000000b2650       0xef /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(deepsleep.o)
                                       0x2df6f (size before relaxing)
- .debug_str     0x00000000000b2708      0x12e /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(event_loop.o)
+ .debug_str     0x00000000000b273f      0x12e /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(event_loop.o)
                                       0x266bc (size before relaxing)
- .debug_str     0x00000000000b2836      0x2c8 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(abi.o)
+ .debug_str     0x00000000000b286d      0x2c8 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(abi.o)
                                        0x9856 (size before relaxing)
- .debug_str     0x00000000000b2afe      0x2d8 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(event_default_handlers.o)
+ .debug_str     0x00000000000b2b35      0x2d8 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(event_default_handlers.o)
                                       0x2696a (size before relaxing)
- .debug_str     0x00000000000b2dd6       0xc8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(wlanif.o)
+ .debug_str     0x00000000000b2e0d       0xc8 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(wlanif.o)
                                       0x28003 (size before relaxing)
- .debug_str     0x00000000000b2e9e       0x55 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethip6.o)
+ .debug_str     0x00000000000b2ed5       0x55 /home/esp32/esp/workspace/2090_DHT/build/lwip/liblwip.a(ethip6.o)
                                       0x24841 (size before relaxing)
 
 .comment        0x0000000000000000       0x62
@@ -23402,9 +23403,9 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .comment       0x0000000000000062       0x41 /home/esp32/esp/esp-idf/components/newlib/lib/libm.a(lib_a-s_fpclassify.o)
  .comment       0x0000000000000062       0x23 /home/esp32/esp/workspace/2090_DHT/build/spi_flash/libspi_flash.a(esp_spi_flash.o)
  .comment       0x0000000000000062       0x23 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .comment       0x0000000000000062       0x23 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
  .comment       0x0000000000000062       0x23 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
  .comment       0x0000000000000062       0x23 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .comment       0x0000000000000062       0x23 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .comment       0x0000000000000062       0x23 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .comment       0x0000000000000062       0x41 /home/esp32/esp/esp-idf/components/esp32/libhal.a(interrupts--intlevel.o)
  .comment       0x0000000000000062       0x23 /home/esp32/esp/esp-idf/components/esp32/lib/libcore.a(system_api.o)
@@ -23561,8 +23562,6 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/esp-idf/components/newlib/lib/libm.a(lib_a-s_fpclassify.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/workspace/2090_DHT/build/spi_flash/libspi_flash.a(esp_spi_flash.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(main_dht.o)
- .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/workspace/2090_DHT/build/main/libmain.a(dht.o)
- .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_addsubdf3.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_muldf3.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divdf3.o)
@@ -23574,6 +23573,7 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_extendsfdf2.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_udivdi3.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_umoddi3.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/workspace/2090_DHT/build/dht/libdht.a(dht.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/workspace/2090_DHT/build/driver/libdriver.a(gpio.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/esp-idf/components/esp32/libhal.a(clock.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/esp-idf/components/esp32/libhal.a(windowspill_asm.o)
@@ -23671,6 +23671,7 @@ OUTPUT(/home/esp32/esp/workspace/2090_DHT/build/blink.elf elf32-xtensa-le)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/workspace/2090_DHT/build/nvs_flash/libnvs_flash.a(nvs_types.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/workspace/2090_DHT/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_divsf3.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcountsi2.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a(_popcount_tab.o)
  .xtensa.info   0x0000000000000038        0x0 /home/esp32/esp/workspace/2090_DHT/build/esp32/libesp32.a(deepsleep.o)

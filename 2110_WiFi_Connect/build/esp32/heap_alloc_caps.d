@@ -9,7 +9,7 @@ heap_alloc_caps.o: \
  /home/esp32/esp/esp-idf/components/freertos/include/freertos/heap_regions.h \
  /home/esp32/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/esp32/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h \
+ /home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h \
  /home/esp32/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/esp32/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/esp32/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -66,7 +66,7 @@ heap_alloc_caps.o: \
 
 /home/esp32/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/esp32/esp/workspace/2100_WiFi_Connect/build/include/sdkconfig.h:
+/home/esp32/esp/workspace/2110_WiFi_Connect/build/include/sdkconfig.h:
 
 /home/esp32/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

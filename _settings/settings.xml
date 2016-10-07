@@ -9,6 +9,7 @@
 <includepath>${IDF_PATH}/components/lwip/include/lwip</includepath>
 <includepath>${IDF_PATH}/components/log/include</includepath>
 <includepath>${IDF_PATH}/components/mbedtls/include</includepath>
+<includepath>${IDF_PATH}/components/tcpip_adapter/include</includepath>
 
 </language>
 <language name="Object File">
